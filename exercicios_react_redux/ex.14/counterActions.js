@@ -3,7 +3,7 @@ export function inc() {
 }
 
 export function dec() {
-    return { type: 'DEC' }
+    return { type: DEC }
 }
 
 export function stepChanged(e) {
